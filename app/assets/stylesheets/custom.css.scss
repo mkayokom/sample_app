@@ -77,7 +77,7 @@ p {
 }
 
 #logo:hover {
-  color: #white;
+  color: white;
   text-decoration: none;
 }
 
@@ -88,12 +88,12 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #grayMediumLight;
-  color: #grayMediumLight;
+  border-top: 1px solid $grayMediumLight;
+  color: $grayMediumLight;
   a {
-    color: #gray;
+    color: $gray;
     &:hover {
-      color: #grayDarker;
+      color: $grayDarker;
     }
   }
   small {
